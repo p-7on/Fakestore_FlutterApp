@@ -1,16 +1,25 @@
-# fakestore_api_app
+Fakestore Demo App
 
-A new Flutter project.
+This is a demo project built with Flutter that showcases products from the FakeStore API (www.fakestoreapi.com).
+The app displays a products list and a detailed view.
 
-## Getting Started
+📋 Features
 
-This project is a starting point for a Flutter application.
+- Product list view
+- Product detail view
+- Cupertino Icons integration
+- Responsive UI for Android, iOS, Web, and Desktop
 
-A few resources to get you started if this is your first Flutter project:
+🛠️ Tech Stack & Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- MVVM Clean Architecture – Clear separation of UI, business logic, and data
+- Provider – State management
+- Dio – HTTP client for REST API requests
+- Future / async-await – Asynchronous data fetching
+- Image.network – Lightweight async image loading
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+📸📱 Screenshots
+
+<img src="https://github.com/p-7on/Fakestore_FlutterApp/blob/82198050dcd8a6b90348dfe3a7081c89dd4d9b7d/screenshots/products_listView.png?raw=true" width="250" /> <img src="https://github.com/p-7on/Fakestore_FlutterApp/blob/82198050dcd8a6b90348dfe3a7081c89dd4d9b7d/screenshots/detail_view.png?raw=true" width="250" />
+
